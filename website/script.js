@@ -22,6 +22,7 @@ function resume()
     contentDiv.innerHTML = `
     <div class="Resume">
       <embed src="AxelSamuelMartinez-1.pdf" type="application/pdf" width="100%" height="1200px">
+      <a href="AxelSamuelMartinez-1.pdf" target="_blank">View My Resume</a>
     </div>
     `;
 }
