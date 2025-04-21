@@ -1,0 +1,62 @@
+#title{
+    text-align: center;
+}
+.navButton{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  text-align: right;
+}
+.navButtonContainer {
+    display: flex;
+    justify-content: center; /* Pushes content to the right */
+    gap: 3em; /* Optional: space between buttons */
+    padding: 1em; /* Optional: spacing from the edge */
+  }
+.navButton:hover {
+    text-decoration: underline;
+    color: #007bff; /* or any color you want */
+}
+.About > p{
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  word-wrap: break-word; /* Breaks long words to fit within the container */
+  max-width: 600px;      /* Optionally limit the paragraph width */
+}
+.Resume >p{
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  word-wrap: break-word; /* Breaks long words to fit within the container */
+  max-width: 600px;      /* Optionally limit the paragraph width */
+}
+.Projects >p{
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  word-wrap: break-word; /* Breaks long words to fit within the container */
+  max-width: 600px;      /* Optionally limit the paragraph width */
+}
+.Contact >p{
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  word-wrap: break-word; /* Breaks long words to fit within the container */
+  max-width: 600px; 
+}
+.Articles>p{
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  word-wrap: break-word; /* Breaks long words to fit within the container */
+  max-width: 600px; 
+}
