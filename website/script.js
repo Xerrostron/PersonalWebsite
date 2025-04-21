@@ -15,16 +15,22 @@ function about()
     `;
 
 }
-function resume()
+function skills()
 {
     const contentDiv = document.querySelector('main');
     contentDiv.innerHTML = '';
     contentDiv.innerHTML = `
-    <div class="Resume">
-      <embed src="AxelSamuelMartinez-1.pdf" type="application/pdf" width="100%" height="1200px">
-      <a href="AxelSamuelMartinez-1.pdf" target="_blank">View My Resume</a>
-    </div>
-    `;
+    <div class="Skills">
+    <h1>Programming Languages</h1>
+    <p>C, C++, C#, Java, Python, HTML, CSS, JavaScript</p>
+
+    <h1>Version Control / Frameworks / Libraries</h1>
+    <p>Git, GitLab, React, Node.js, .NET, psycopg2</p>
+
+    <h1>Database Related Skills</h1>
+    <p>MongoDB, SQL, PostgreSQL, SQLite, Entity Framework</p>
+  </div>
+`;
 }
 function contact()
 {

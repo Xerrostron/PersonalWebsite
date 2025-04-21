@@ -28,7 +28,7 @@
   word-wrap: break-word; /* Breaks long words to fit within the container */
   max-width: 600px;      /* Optionally limit the paragraph width */
 }
-.Resume >p{
+.Skills >p{
   font-size: 18px;
   color: #333;
   line-height: 1.6;
